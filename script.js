@@ -2,10 +2,10 @@ $(".search").click(function() {
     var search = $("input").val();
 //Paragraph
     if (search==="paragraph") {
-        window.open("https://nperieff.github.io/Hackathon-HTML/", "_blank");
+        window.open("https://nperieff.github.io/Hackathon-HTML/");
     }
     else if (search==="Paragraph" || search==="p" || search==="p tag" || search==="<p>" || search==="p html" || search==="P html" || search==="p Html" || search==="P Html") {
-        window.open("https://nperieff.github.io/Hackathon-HTML/", "_blank");
+        window.open("https://nperieff.github.io/Hackathon-HTML/");
     }
     else {
          window.open("https://www.google.com/search?q="+search, "_blank");
