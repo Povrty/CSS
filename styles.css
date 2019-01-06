@@ -1,6 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 html {
     width: 100%;
@@ -80,4 +82,14 @@ img:hover {
 hr {
     width: 100%;
     background-color: #454545;
+}
+.cntflex {
+    display: flex;
+    align-items: center;
+}
+div.content {
+    text-align: center;
+}
+p {
+    padding-left: 25px;
 }
